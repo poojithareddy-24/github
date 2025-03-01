@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Website</title>
+    <link rel="stylesheet" href="First Website.css">
+    <style>
+        body{
+            margin: 0px;
+        }
+        header{
+            background-color: black;
+            color: white;
+            margin: 0px;
+        }
+        header h1{
+            text-align: center;
+            font-size: 70px;
+            margin: 0px;
+        }
+        header table{
+            margin-left: 1150px;
+        }
+        header td{
+            font-size: 20px;
+            padding-left: 30px;
+        }
+        .main{
+            border: 5px solid black;
+            width: 300px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-left: 30px;
+        }
+        .main img{
+            width: 250px;
+            height: 350px;
+        }
+        h3,img{
+            font-size: 30px;
+            margin: 10px;
+        }
+        .x td{
+            padding-left: 10px;
+            transition: transform 0.3 ease-in-out;
+        }
+        footer{
+            background-color: black;
+            color: azure;
+            height: 40px;
+            text-align: center;
+        }
+        .x td :hover{
+            transform: scale(1.1);
+            background-color:silver;
+            color: black;
+            cursor: pointer;
+        }
+        .b{
+            
+            background: white;
+            color: black;
+            font-size: 30px;
+            border-radius: 5px;
+        }
+        .b :hover{
+            background-color: white;
+            transform: scale(1.1);
+            color: black;
+           
+        }
+
+    </style>
+    
+</head>
+<body>
+    <header>
+    <h1 style="background-color:black;">E-Commerce</h1>
+    <table>
+        <tr>
+            <td>Home</td>
+            <td>About</td>
+            <td>Contact</td>
+            <td>Profile</td>
+        </tr>           
+    </table>
+    </header>
+    <table class="x">
+        <tr>
+            <td>
+                <div class="main">
+                    <h3>Dresses</h3>
+                    <img src="Dress1.jpg" alt="No Image">
+                    <button class="b">Buy Now</button>
+        
+                </div>
+            </td> 
+            <td>
+                <div class="main">
+                    <h3>Bags</h3>
+                    <img src="bagsss.jpg" alt="No Image">
+                    <button class="b">Buy Now</button>
+    
+                </div>
+            </td> 
+            <td>
+                <div class="main">
+                    <h3>Footware</h3>
+                    <img src="Footware.jpg" alt="No Image">
+                    <button class="b">Buy Now</button>
+
+                </div>
+            </td> 
+            <td>
+                <div class="main">
+                    <h3>Cosmetics</h3>
+                    <img src="Cosmetics.jpg" alt="No Image">
+                    <button class="b">Buy Now</button>
+                 
+                </div>
+            </td> 
+        </tr>
+    </table>
+    <footer>
+        <h2>Developed by Poojitha</h2>
+    </footer>
+    
+    
+</body>
+</html>
